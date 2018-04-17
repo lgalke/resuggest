@@ -1,0 +1,3 @@
+[submodule "resuggest/vec4ir"]
+	path = resuggest/vec4ir
+	url = git://github.com/lgalke/vec4ir.git
