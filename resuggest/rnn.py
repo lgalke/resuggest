@@ -5,7 +5,6 @@ import torch.optim as optim
 import numpy as np
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.utils import shuffle
-from align import negative_samples
 from torch import LongTensor as LT
 from torch import FloatTensor as FT
 from torch.autograd import Variable as V

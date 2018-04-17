@@ -3,7 +3,6 @@ import scipy.sparse as sp
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.exceptions import NotFittedError
 from sklearn.utils import shuffle
-from ub import GensimEmbeddedVectorizer
 
 import torch
 import torch.optim as optim
@@ -12,6 +11,8 @@ import torch.nn.functional as F
 from torch.autograd import Variable as V
 from torch import LongTensor as LT
 from torch import FloatTensor as FT
+
+from .ub import GensimEmbeddedVectorizer
 
 W2V_PATH = "/data21/lgalke/vectors/cc.de.300.vec"
 W2V_IS_BINARY = False
