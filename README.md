@@ -6,10 +6,12 @@ This repository holds the code for the paper: [A Case Study of Closed-Domain Res
 2. A collection of response suggestion algorithms: retrieval models and representation learning approaches
 3. An evaluation framework for response suggestion using BLEU score.
 
-## Usage
+## Usage of Response Suggestion Methods
 
-**available soon**
-
+1. pip install -r requirements
+2. Bring data into `sources.txt` and `targets.txt` format, where line i of 'targets.txt' is the response to question in line i of 'sources.txt'
+3. Consult `python3 single_eval.py -h` to inspect command line arguments.
+4. Run an experiment via `python3 single_eval.py [OPTIONS] path/to/sources.txt path/to/targets.txt`
 
 ## Citation
 
