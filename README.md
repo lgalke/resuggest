@@ -8,10 +8,11 @@ This repository holds the code for the paper: [A Case Study of Closed-Domain Res
 
 ## Usage of Response Suggestion Methods
 
-1. pip install -r requirements
-2. Bring data into `sources.txt` and `targets.txt` format, where line i of 'targets.txt' is the response to question in line i of 'sources.txt'
-3. Consult `python3 single_eval.py -h` to inspect command line parameters such as specifying the model
-4. Run an experiment via `python3 single_eval.py [OPTIONS] path/to/sources.txt path/to/targets.txt`
+1. `git submodule update --init` to fetch submodule 'resuggest/vec4ir'
+3. `pip install -r requirements.txt` to install all dependencies.
+4. Bring data into `sources.txt` and `targets.txt` format, where line i of 'targets.txt' is the response to question in line i of 'sources.txt'
+5. Consult `python3 single_eval.py -h` to inspect command line parameters such as specifying the model
+6. Run an experiment via `python3 single_eval.py [OPTIONS] path/to/sources.txt path/to/targets.txt`
 
 ## Citation
 
