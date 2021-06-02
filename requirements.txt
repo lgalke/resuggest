@@ -34,5 +34,5 @@ sklearn==0.0
 smart-open==1.11.1
 torch==1.4.0
 tqdm==4.45.0
-urllib3==1.25.9
+urllib3==1.26.5
 -e git://github.com/lgalke/vec4ir.git@10bbd7c843fe7db6af20b9752732bf0584b23bce#egg=vec4ir&subdirectory=../../../resuggest/vec4ir
